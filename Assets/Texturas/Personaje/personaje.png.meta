@@ -1,0 +1,1031 @@
+fileFormatVersion: 2
+guid: 457f5d514965b4e4a9a854c9c3ef46e7
+timeCreated: 1477016681
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: personaje_0
+    21300002: personaje_1
+    21300004: personaje_2
+    21300006: personaje_3
+    21300008: personaje_4
+    21300010: personaje_5
+    21300012: personaje_6
+    21300014: Personaje_Craw_1
+    21300016: Personaje_Craw_2
+    21300018: Personaje_Craw_3
+    21300020: Personaje_Craw_4
+    21300022: Personaje_Craw_5
+    21300024: Personaje_Craw_6
+    21300026: personaje_13
+    21300028: Personaje_Jump_1
+    21300030: Personaje_Jump_2
+    21300032: Personaje_Jump_3
+    21300034: Personaje_Jump_4
+    21300036: personaje_18
+    21300038: Personaje_Sneak_1
+    21300040: Personaje_Sneak_2
+    21300042: Personaje_Sneak_3
+    21300044: Personaje_Sneak_4
+    21300046: Personaje_Sneak_5
+    21300048: Personaje_Sneak_6
+    21300050: personaje_25
+    21300052: personaje_26
+    21300054: Personaje_Down
+    21300056: Personaje_Down_Fire
+    21300058: personaje_29
+    21300060: Personaje_Idle
+    21300062: Personaje_Fire_1
+    21300064: Personaje_Fire_2
+    21300066: Personaje_Fire_3
+    21300068: personaje_34
+    21300070: personaje_35
+    21300072: personaje_36
+    21300074: Personaje_Run_1
+    21300076: Personaje_Run_2
+    21300078: Personaje_Run_3
+    21300080: Personaje_Run_4
+    21300082: Personaje_Run_5
+    21300084: Personaje_Run_6
+    21300086: personaje_43
+    21300088: personaje_44
+    21300090: Personaje_Run_7
+    21300092: Personaje_Run_8
+    21300094: Personaje_Run_9
+    21300096: Personaje_Run_10
+    21300098: Personaje_Run_11
+    21300100: Personaje_Run_12
+    21300102: Personaje_Run_Fire_1
+    21300104: Personaje_Run_Fire_2
+    21300106: Personaje_Run_Fire_3
+    21300108: Personaje_Run_Fire_4
+    21300110: Personaje_Run_Fire_5
+    21300112: Personaje_Run_Fire_6
+    21300114: personaje_57
+    21300116: personaje_58
+    21300118: personaje_59
+    21300120: personaje_60
+    21300122: personaje_61
+    21300124: personaje_62
+    21300126: personaje_63
+    21300128: personaje_64
+    21300130: personaje_65
+    21300132: personaje_66
+    21300134: personaje_67
+    21300136: personaje_68
+    21300138: personaje_69
+    21300140: Personaje_Climb_1
+    21300142: Personaje_Climb_2
+    21300144: Personaje_Climb_3
+    21300146: Personaje_Climb_4
+    21300148: Personaje_Climb_5
+    21300150: Personaje_Climb_6
+    21300152: personaje_76
+    21300154: Personaje_Run_Jump_1
+    21300156: Personaje_Run_Jump_2
+    21300158: Personaje_Run_Jump_3
+    21300160: Personaje_Run_Jump_4
+    21300162: Personaje_Run_Jump_5
+    21300164: Personaje_Run_Jump_6
+    21300166: Personaje_Run_Jump_7
+    21300168: Personaje_Run_Jump_8
+    21300170: personaje_85
+    21300172: Personaje_Kick_1
+    21300174: Personaje_Kick_2
+    21300176: Personaje_Kick_3
+    21300178: Personaje_Kick_4
+    21300180: Personaje_Kick_5
+    21300182: Personaje_Kick_6
+    21300184: personaje_92
+    21300186: Personaje_Throw_1
+    21300188: Personaje_Throw_2
+    21300190: Personaje_Throw_3
+    21300192: Personaje_Throw_4
+    21300194: Personaje_Throw_5
+    21300196: Personaje_Throw_6
+    21300198: personaje_99
+    21300200: personaje_100
+    21300202: personaje_101
+    21300204: personaje_102
+    21300206: personaje_103
+    21300208: personaje_104
+    21300210: personaje_105
+    21300212: personaje_106
+    21300214: personaje_107
+    21300216: personaje_108
+    21300218: personaje_109
+    21300220: personaje_110
+    21300222: personaje_111
+    21300224: personaje_112
+    21300226: personaje_113
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Personaje_Craw_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 910
+        width: 52
+        height: 34
+      alignment: 9
+      pivot: {x: 0.50256956, y: 0.13301535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Craw_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 910
+        width: 49
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4915563, y: 0.14708935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Craw_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 910
+        width: 47
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47358996, y: 0.14708935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Craw_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 910
+        width: 46
+        height: 34
+      alignment: 9
+      pivot: {x: 0.46402076, y: 0.12275068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Craw_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 910
+        width: 47
+        height: 34
+      alignment: 9
+      pivot: {x: 0.47359028, y: 0.13492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Craw_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 910
+        width: 49
+        height: 34
+      alignment: 9
+      pivot: {x: 0.508444, y: 0.13492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 839
+        width: 31
+        height: 51
+      alignment: 9
+      pivot: {x: 0.464441, y: 0.06771073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 840
+        width: 29
+        height: 65
+      alignment: 9
+      pivot: {x: 0.51900524, y: 0.033626616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 846
+        width: 29
+        height: 59
+      alignment: 9
+      pivot: {x: 0.51900536, y: 0.05159126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 843
+        width: 32
+        height: 61
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.06629319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Sneak_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 833
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Sneak_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Sneak_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 833
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Sneak_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Sneak_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 834
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Sneak_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Down
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 757
+        width: 31
+        height: 45
+      alignment: 9
+      pivot: {x: 0.49330595, y: 0.104786515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Down_Fire
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 756
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.12860744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Idle
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 756
+        width: 26
+        height: 61
+      alignment: 9
+      pivot: {x: 0.51493365, y: 0.10501049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 756
+        width: 26
+        height: 61
+      alignment: 9
+      pivot: {x: 0.47522384, y: 0.09868985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 756
+        width: 31
+        height: 61
+      alignment: 9
+      pivot: {x: 0.3960955, y: 0.09868885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 756
+        width: 40
+        height: 61
+      alignment: 9
+      pivot: {x: 0.3147896, y: 0.08812776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 674
+        width: 32
+        height: 59
+      alignment: 9
+      pivot: {x: 0.48960137, y: 0.07700464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 673
+        width: 32
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4584056, y: 0.08692248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 673
+        width: 26
+        height: 59
+      alignment: 9
+      pivot: {x: 0.42321014, y: 0.06572452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 673
+        width: 31
+        height: 59
+      alignment: 9
+      pivot: {x: 0.47853237, y: 0.060084455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 673
+        width: 33
+        height: 58
+      alignment: 9
+      pivot: {x: 0.45966592, y: 0.08118623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 673
+        width: 25
+        height: 59
+      alignment: 9
+      pivot: {x: 0.42013854, y: 0.07700464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 596
+        width: 31
+        height: 59
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.09138928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 597
+        width: 30
+        height: 58
+      alignment: 9
+      pivot: {x: 0.40634015, y: 0.09500227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 597
+        width: 24
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4116922, y: 0.09138928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 596
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: 0.43605304, y: 0.112344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 596
+        width: 32
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4420476, y: 0.105660275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 596
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: 0.38552687, y: 0.112344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 595
+        width: 42
+        height: 59
+      alignment: 9
+      pivot: {x: 0.3735591, y: 0.09138928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 595
+        width: 42
+        height: 58
+      alignment: 9
+      pivot: {x: 0.34186715, y: 0.084344275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 595
+        width: 38
+        height: 59
+      alignment: 9
+      pivot: {x: 0.30979803, y: 0.08091296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 595
+        width: 40
+        height: 59
+      alignment: 9
+      pivot: {x: 0.35624304, y: 0.09138928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 595
+        width: 40
+        height: 57
+      alignment: 9
+      pivot: {x: 0.35951024, y: 0.09500227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 595
+        width: 38
+        height: 59
+      alignment: 9
+      pivot: {x: 0.25599107, y: 0.112344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Climb_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 442
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Climb_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 445
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Climb_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 449
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Climb_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 442
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Climb_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 445
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Climb_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 448
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 377
+        width: 49
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5343339, y: 0.079415545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 376
+        width: 51
+        height: 52
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.063237704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 368
+        width: 37
+        height: 58
+      alignment: 9
+      pivot: {x: 0.52273476, y: 0.093916796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 368
+        width: 34
+        height: 59
+      alignment: 9
+      pivot: {x: 0.42577946, y: 0.0722858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 377
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5350488, y: 0.079414956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 376
+        width: 50
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5168231, y: 0.09559044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 368
+        width: 38
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5000016, y: 0.07941411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Run_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 368
+        width: 33
+        height: 59
+      alignment: 9
+      pivot: {x: 0.47451043, y: 0.08654268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Kick_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 296
+        width: 28
+        height: 61
+      alignment: 9
+      pivot: {x: 0.51791275, y: 0.08065946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Kick_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 296
+        width: 31
+        height: 61
+      alignment: 9
+      pivot: {x: 0.51617926, y: 0.08065946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Kick_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 296
+        width: 31
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5323582, y: 0.08065946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Kick_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 296
+        width: 41
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4266, y: 0.083446436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Kick_5
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 296
+        width: 35
+        height: 60
+      alignment: 9
+      pivot: {x: 0.47133833, y: 0.08202972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Kick_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 296
+        width: 30
+        height: 60
+      alignment: 9
+      pivot: {x: 0.48328045, y: 0.08202972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Throw_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 223
+        width: 28
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5126901, y: 0.06313011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Throw_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 223
+        width: 37
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5288096, y: 0.07477982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Throw_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 223
+        width: 44
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5161511, y: 0.07477982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Throw_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 223
+        width: 38
+        height: 59
+      alignment: 9
+      pivot: {x: 0.47194752, y: 0.07241046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Throw_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 223
+        width: 45
+        height: 58
+      alignment: 9
+      pivot: {x: 0.39735174, y: 0.07116489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Personaje_Throw_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 223
+        width: 30
+        height: 60
+      alignment: 9
+      pivot: {x: 0.499999, y: 0.06769333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
