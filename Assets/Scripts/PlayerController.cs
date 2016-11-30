@@ -13,38 +13,43 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     public float radius = 0.05f;
     [SerializeField]
-    public float jumpForce = 350f;
+    public float jumpForce = 5f;
 
     private Rigidbody2D _body = null;
     private Animator _anim;
     private bool m_FacingRight = true;
     private bool isEspecial = false;
     private bool isEspecial1 = false;    
-
-    bool isFire = false;
-    bool isJump = false;    
-    bool isDown = false;
-    bool isUp = false;
-    bool isLeft = false;
-    bool isRight = false;
-    bool isRun = false;
-    float OnAir = 0.0f;
+        
+    public bool isFire = false;
+    public bool isJump = false;
+    public bool isDown = false;
+    public bool isUp = false;
+    public bool isLeft = false;
+    public bool isRight = false;
+    public bool isRun = false;
+    public bool isWalk = false;
+    public float OnAir = 0.0f;
     public bool isGround = false;
+    public float Direccion = 1.0f;
+
     float move = 0.0f;
     float velx = 0.0f;
     float vely = 0.0f;
+
+    public float VelX;
+    public float VelY;
 
     void Awake()
     {
         _body = GetComponentInChildren<Rigidbody2D>();
         _anim = GetComponentInChildren<Animator>();
     }
-
-	// Use this for initialization
+    	
 	void Start () {	
 	}
 	
-	// Update is called once per frame
+    	
 	void Update ()
     {
         Move();
@@ -57,7 +62,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     /// <summary>
-    /// 
+    /// Asigna el estado a las variables del animator
     /// </summary>
     private void SetAnimatorState()
     {
@@ -87,40 +92,71 @@ public class PlayerController : MonoBehaviour {
         Gizmos.DrawWireSphere(posY, radius);
     }
 
+    /// <summary>
+    /// Verifica si el personaje esta tocando el piso
+    /// </summary>
     public void CheckGround()
     {
+        isGround = Physics2D.OverlapCircle(_body.transform.position, radius, ground_layers);
+
         if (!isGround)
-        {
-            isGround = Physics2D.OverlapCircle(_body.transform.position, radius, ground_layers);
+        {           
             OnAir = _body.velocity.y;
+            if (isGround)
+            {
+                if(Mathf.Abs(_body.velocity.x) > Vector2.kEpsilon)
+                {
+                    _body.AddForce(Vector2.right * Direccion * 1.25f, ForceMode2D.Impulse);
+                    
+                }
+            }
         }
     }
 
+    /// <summary>
+    /// Aplica las modificaciones que interactuan con 
+    /// el motor de fisica 
+    /// </summary>
     public void ApplyPhysics()
     {
-        if (isRun)
-        {
-            //if (velx > 0.9f)
-            //{
-            //    //if (isDown)
-            //    //{
-            //    //    _body.velocity = new Vector2(move * MaxCrawSpeed, _body.velocity.y);
-            //    //}
-            //    //else
-            //    //{
-            //    _body.velocity = new Vector2(move * MaxSpeed, _body.velocity.y);               
-            //    //}
-            //}
-            _body.velocity = new Vector2(move * MaxSpeed, _body.velocity.y);
-        }
+        VelX = _body.velocity.x;
+        VelY = _body.velocity.y;
 
         if (isGround)
         {
             if (isJump)
             {
-                isJump = false;
+                isJump = false;                
                 isGround = false;
-                _body.AddForce(Vector3.up * 5,ForceMode2D.Impulse);
+                if (isWalk)
+                {
+                    Vector2 vect = new Vector2( Direccion * 0.3f , 1.0f);
+                    _body.AddForce(vect * jumpForce, ForceMode2D.Impulse);
+                }
+                else
+                {
+                    _body.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                }
+                isWalk = false;
+            }
+
+            if (isRun)
+            {
+                if (isDown)
+                {
+                    _body.velocity = new Vector2(move * MaxCrawSpeed, _body.velocity.y);
+                }
+                else
+                {
+                    _body.velocity = new Vector2(move * MaxSpeed, _body.velocity.y);
+                }
+            }
+            else
+            {
+                if (_body.velocity.y < Vector2.kEpsilon  && _body.velocity.x > Vector2.kEpsilon)
+                {
+                    //_body.velocity = new Vector2(_body.velocity.y, 0);
+                }
             }
         }
         else
@@ -129,8 +165,12 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
+    /// <summary>
+    /// Captura y activa los flags de movimiento
+    /// </summary>
     private void Move()
     {
+        //Remapear Entradas
         isFire = CrossPlatformInputManager.GetButton("Fire"); //F
         bool especial = CrossPlatformInputManager.GetButton("Especial"); //C
 
@@ -142,27 +182,37 @@ public class PlayerController : MonoBehaviour {
         float h = CrossPlatformInputManager.GetAxis("Horizontal"); //A <-- y --> D                
         float v = CrossPlatformInputManager.GetAxis("Vertical");//W (up) y S (down)
 
+        //Assignar variables
         move = h;
         velx = Mathf.Abs(move);
         isRun = velx > 0.4f;        
         vely = v;
+
         
+
         if (isGround)
         {
             if (isUp)
             {
                 isJump = true;
+
+                if (isLeft || isRight)
+                {
+                    isWalk = true;
+                }
             }
            
             if (move > 0 && !m_FacingRight)
             {
                 Flip();
                 m_FacingRight = true;
+                Direccion = 1.0f;
             }
             else if (move < 0 && m_FacingRight)
             {
                 Flip();
                 m_FacingRight = false;
+                Direccion = -1.0f;
             }
 
             if (especial)
@@ -198,6 +248,10 @@ public class PlayerController : MonoBehaviour {
             
     }
 
+    /// <summary>
+    /// Orienta la imagen del personaje en relacion a la direccion 
+    /// del movimiento del mismo
+    /// </summary>
     private void Flip()
     {
         // Switch the way the player is labelled as facing.
@@ -206,9 +260,7 @@ public class PlayerController : MonoBehaviour {
         // Multiply the player's x local scale by -1.
         Vector3 theScale = _body.transform.localScale;
         theScale.x *= -1;
-        _body.transform.localScale = theScale;
-
-        _body.velocity = new Vector2();
+        _body.transform.localScale = theScale;        
     }
 }
 
