@@ -101,7 +101,7 @@ GameObject:
   - 61: {fileID: 34534523}
   - 23: {fileID: 34534522}
   - 33: {fileID: 34534521}
-  m_Layer: 8
+  m_Layer: 20
   m_Name: Piso (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 34534520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.854, y: 0.521, z: 0}
+  m_LocalPosition: {x: -1.854, y: 1.241, z: 0}
   m_LocalScale: {x: 1.7, y: 0.1625003, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -269,7 +269,7 @@ GameObject:
   - 61: {fileID: 329761793}
   - 23: {fileID: 329761796}
   - 33: {fileID: 329761795}
-  m_Layer: 8
+  m_Layer: 20
   m_Name: Piso
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 730206857}
   - 114: {fileID: 730206858}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Hero
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -362,7 +362,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 730206856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.001, y: 1.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -384,8 +384,8 @@ MonoBehaviour:
   MaxCrawSpeed: 0.5
   ground_layers:
     serializedVersion: 2
-    m_Bits: 256
-  radius: 0.05
+    m_Bits: 1081600
+  radius: 0.065
   jumpForce: 5
   isFire: 0
   isJump: 0
@@ -409,7 +409,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 738297739}
   - 50: {fileID: 738297741}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   - 212: {fileID: 2129737820}
   - 95: {fileID: 2129737821}
   - 61: {fileID: 2129737822}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 500717655
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300060, guid: 457f5d514965b4e4a9a854c9c3ef46e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -539,6 +539,6 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.01, y: 0.24}
+  m_Offset: {x: 0, y: 0.24}
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.55}
+  m_Size: {x: 0.1, y: 0.55}

@@ -14,19 +14,19 @@ TagManager:
   - UI
   - 
   - 
+  - 
+  - Back
+  - 
+  - 
+  - Personaje
+  - 
+  - 
+  - 
+  - Front
+  - 
+  - 
+  - 
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -41,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 1694483587
+    locked: 0
+  - name: -1
+    uniqueID: 2017921377
+    locked: 0
+  - name: 0
+    uniqueID: 500717655
+    locked: 0
+  - name: 1
+    uniqueID: 388016343
+    locked: 0
+  - name: Front
+    uniqueID: 1428422221
     locked: 0

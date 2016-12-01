@@ -7,11 +7,11 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private float MaxSpeed = 2f;
     [SerializeField]
-    private float MaxCrawSpeed = 2f;
+    private float MaxCrawSpeed = 0.5f;
     [SerializeField]
     public LayerMask ground_layers;
     [SerializeField]
-    public float radius = 0.05f;
+    public float radius = 0.065f;
     [SerializeField]
     public float jumpForce = 5f;
 
@@ -98,10 +98,10 @@ public class PlayerController : MonoBehaviour {
     public void CheckGround()
     {
         isGround = Physics2D.OverlapCircle(_body.transform.position, radius, ground_layers);
+        OnAir = _body.velocity.y;
 
         if (!isGround)
-        {           
-            OnAir = _body.velocity.y;
+        {                       
             if (isGround)
             {
                 if(Mathf.Abs(_body.velocity.x) > Vector2.kEpsilon)
@@ -185,7 +185,7 @@ public class PlayerController : MonoBehaviour {
         //Assignar variables
         move = h;
         velx = Mathf.Abs(move);
-        isRun = velx > 0.4f;        
+        isRun = velx > 0.3f;        
         vely = v;
 
         
