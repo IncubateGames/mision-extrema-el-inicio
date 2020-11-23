@@ -1,6 +1,9 @@
 # Mision Extrema - El inicio
 GAME DESIGN DOCUMENT
 
+## Pagina del juegos
+https://oskit-producciones.github.io/mision-extrema-el-inicio/
+
 ## NOTA
 La version original del juego fue realizada en c++ con un motor propio. El mismo juego se esta migrando a Unity 3D para dar mas compatiblidad de plataformas
 
