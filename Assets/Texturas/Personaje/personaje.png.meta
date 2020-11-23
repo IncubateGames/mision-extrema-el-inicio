@@ -1,131 +1,360 @@
 fileFormatVersion: 2
 guid: 457f5d514965b4e4a9a854c9c3ef46e7
-timeCreated: 1477016681
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: personaje_0
-    21300002: personaje_1
-    21300004: personaje_2
-    21300006: personaje_3
-    21300008: personaje_4
-    21300010: personaje_5
-    21300012: personaje_6
-    21300014: Personaje_Craw_1
-    21300016: Personaje_Craw_2
-    21300018: Personaje_Craw_3
-    21300020: Personaje_Craw_4
-    21300022: Personaje_Craw_5
-    21300024: Personaje_Craw_6
-    21300026: personaje_13
-    21300028: Personaje_Jump_1
-    21300030: Personaje_Jump_2
-    21300032: Personaje_Jump_3
-    21300034: Personaje_Jump_4
-    21300036: personaje_18
-    21300038: Personaje_Sneak_1
-    21300040: Personaje_Sneak_2
-    21300042: Personaje_Sneak_3
-    21300044: Personaje_Sneak_4
-    21300046: Personaje_Sneak_5
-    21300048: Personaje_Sneak_6
-    21300050: personaje_25
-    21300052: personaje_26
-    21300054: Personaje_Down
-    21300056: Personaje_Down_Fire
-    21300058: personaje_29
-    21300060: Personaje_Idle
-    21300062: Personaje_Fire_1
-    21300064: Personaje_Fire_2
-    21300066: Personaje_Fire_3
-    21300068: personaje_34
-    21300070: personaje_35
-    21300072: personaje_36
-    21300074: Personaje_Run_1
-    21300076: Personaje_Run_2
-    21300078: Personaje_Run_3
-    21300080: Personaje_Run_4
-    21300082: Personaje_Run_5
-    21300084: Personaje_Run_6
-    21300086: personaje_43
-    21300088: personaje_44
-    21300090: Personaje_Run_7
-    21300092: Personaje_Run_8
-    21300094: Personaje_Run_9
-    21300096: Personaje_Run_10
-    21300098: Personaje_Run_11
-    21300100: Personaje_Run_12
-    21300102: Personaje_Run_Fire_1
-    21300104: Personaje_Run_Fire_2
-    21300106: Personaje_Run_Fire_3
-    21300108: Personaje_Run_Fire_4
-    21300110: Personaje_Run_Fire_5
-    21300112: Personaje_Run_Fire_6
-    21300114: personaje_57
-    21300116: personaje_58
-    21300118: personaje_59
-    21300120: personaje_60
-    21300122: personaje_61
-    21300124: personaje_62
-    21300126: personaje_63
-    21300128: personaje_64
-    21300130: personaje_65
-    21300132: personaje_66
-    21300134: personaje_67
-    21300136: personaje_68
-    21300138: personaje_69
-    21300140: Personaje_Climb_1
-    21300142: Personaje_Climb_2
-    21300144: Personaje_Climb_3
-    21300146: Personaje_Climb_4
-    21300148: Personaje_Climb_5
-    21300150: Personaje_Climb_6
-    21300152: personaje_76
-    21300154: Personaje_Run_Jump_1
-    21300156: Personaje_Run_Jump_2
-    21300158: Personaje_Run_Jump_3
-    21300160: Personaje_Run_Jump_4
-    21300162: Personaje_Run_Jump_5
-    21300164: Personaje_Run_Jump_6
-    21300166: Personaje_Run_Jump_7
-    21300168: Personaje_Run_Jump_8
-    21300170: personaje_85
-    21300172: Personaje_Kick_1
-    21300174: Personaje_Kick_2
-    21300176: Personaje_Kick_3
-    21300178: Personaje_Kick_4
-    21300180: Personaje_Kick_5
-    21300182: Personaje_Kick_6
-    21300184: personaje_92
-    21300186: Personaje_Throw_1
-    21300188: Personaje_Throw_2
-    21300190: Personaje_Throw_3
-    21300192: Personaje_Throw_4
-    21300194: Personaje_Throw_5
-    21300196: Personaje_Throw_6
-    21300198: personaje_99
-    21300200: personaje_100
-    21300202: personaje_101
-    21300204: personaje_102
-    21300206: personaje_103
-    21300208: personaje_104
-    21300210: personaje_105
-    21300212: personaje_106
-    21300214: personaje_107
-    21300216: personaje_108
-    21300218: personaje_109
-    21300220: personaje_110
-    21300222: personaje_111
-    21300224: personaje_112
-    21300226: personaje_113
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: personaje_0
+  - first:
+      213: 21300002
+    second: personaje_1
+  - first:
+      213: 21300004
+    second: personaje_2
+  - first:
+      213: 21300006
+    second: personaje_3
+  - first:
+      213: 21300008
+    second: personaje_4
+  - first:
+      213: 21300010
+    second: personaje_5
+  - first:
+      213: 21300012
+    second: personaje_6
+  - first:
+      213: 21300014
+    second: Personaje_Craw_1
+  - first:
+      213: 21300016
+    second: Personaje_Craw_2
+  - first:
+      213: 21300018
+    second: Personaje_Craw_3
+  - first:
+      213: 21300020
+    second: Personaje_Craw_4
+  - first:
+      213: 21300022
+    second: Personaje_Craw_5
+  - first:
+      213: 21300024
+    second: Personaje_Craw_6
+  - first:
+      213: 21300026
+    second: personaje_13
+  - first:
+      213: 21300028
+    second: Personaje_Jump_1
+  - first:
+      213: 21300030
+    second: Personaje_Jump_2
+  - first:
+      213: 21300032
+    second: Personaje_Jump_3
+  - first:
+      213: 21300034
+    second: Personaje_Jump_4
+  - first:
+      213: 21300036
+    second: personaje_18
+  - first:
+      213: 21300038
+    second: Personaje_Sneak_1
+  - first:
+      213: 21300040
+    second: Personaje_Sneak_2
+  - first:
+      213: 21300042
+    second: Personaje_Sneak_3
+  - first:
+      213: 21300044
+    second: Personaje_Sneak_4
+  - first:
+      213: 21300046
+    second: Personaje_Sneak_5
+  - first:
+      213: 21300048
+    second: Personaje_Sneak_6
+  - first:
+      213: 21300050
+    second: personaje_25
+  - first:
+      213: 21300052
+    second: personaje_26
+  - first:
+      213: 21300054
+    second: Personaje_Down
+  - first:
+      213: 21300056
+    second: Personaje_Down_Fire
+  - first:
+      213: 21300058
+    second: personaje_29
+  - first:
+      213: 21300060
+    second: Personaje_Idle
+  - first:
+      213: 21300062
+    second: Personaje_Fire_1
+  - first:
+      213: 21300064
+    second: Personaje_Fire_2
+  - first:
+      213: 21300066
+    second: Personaje_Fire_3
+  - first:
+      213: 21300068
+    second: personaje_34
+  - first:
+      213: 21300070
+    second: personaje_35
+  - first:
+      213: 21300072
+    second: personaje_36
+  - first:
+      213: 21300074
+    second: Personaje_Run_1
+  - first:
+      213: 21300076
+    second: Personaje_Run_2
+  - first:
+      213: 21300078
+    second: Personaje_Run_3
+  - first:
+      213: 21300080
+    second: Personaje_Run_4
+  - first:
+      213: 21300082
+    second: Personaje_Run_5
+  - first:
+      213: 21300084
+    second: Personaje_Run_6
+  - first:
+      213: 21300086
+    second: personaje_43
+  - first:
+      213: 21300088
+    second: personaje_44
+  - first:
+      213: 21300090
+    second: Personaje_Run_7
+  - first:
+      213: 21300092
+    second: Personaje_Run_8
+  - first:
+      213: 21300094
+    second: Personaje_Run_9
+  - first:
+      213: 21300096
+    second: Personaje_Run_10
+  - first:
+      213: 21300098
+    second: Personaje_Run_11
+  - first:
+      213: 21300100
+    second: Personaje_Run_12
+  - first:
+      213: 21300102
+    second: Personaje_Run_Fire_1
+  - first:
+      213: 21300104
+    second: Personaje_Run_Fire_2
+  - first:
+      213: 21300106
+    second: Personaje_Run_Fire_3
+  - first:
+      213: 21300108
+    second: Personaje_Run_Fire_4
+  - first:
+      213: 21300110
+    second: Personaje_Run_Fire_5
+  - first:
+      213: 21300112
+    second: Personaje_Run_Fire_6
+  - first:
+      213: 21300114
+    second: personaje_57
+  - first:
+      213: 21300116
+    second: personaje_58
+  - first:
+      213: 21300118
+    second: personaje_59
+  - first:
+      213: 21300120
+    second: personaje_60
+  - first:
+      213: 21300122
+    second: personaje_61
+  - first:
+      213: 21300124
+    second: personaje_62
+  - first:
+      213: 21300126
+    second: personaje_63
+  - first:
+      213: 21300128
+    second: personaje_64
+  - first:
+      213: 21300130
+    second: personaje_65
+  - first:
+      213: 21300132
+    second: personaje_66
+  - first:
+      213: 21300134
+    second: personaje_67
+  - first:
+      213: 21300136
+    second: personaje_68
+  - first:
+      213: 21300138
+    second: personaje_69
+  - first:
+      213: 21300140
+    second: Personaje_Climb_1
+  - first:
+      213: 21300142
+    second: Personaje_Climb_2
+  - first:
+      213: 21300144
+    second: Personaje_Climb_3
+  - first:
+      213: 21300146
+    second: Personaje_Climb_4
+  - first:
+      213: 21300148
+    second: Personaje_Climb_5
+  - first:
+      213: 21300150
+    second: Personaje_Climb_6
+  - first:
+      213: 21300152
+    second: personaje_76
+  - first:
+      213: 21300154
+    second: Personaje_Run_Jump_1
+  - first:
+      213: 21300156
+    second: Personaje_Run_Jump_2
+  - first:
+      213: 21300158
+    second: Personaje_Run_Jump_3
+  - first:
+      213: 21300160
+    second: Personaje_Run_Jump_4
+  - first:
+      213: 21300162
+    second: Personaje_Run_Jump_5
+  - first:
+      213: 21300164
+    second: Personaje_Run_Jump_6
+  - first:
+      213: 21300166
+    second: Personaje_Run_Jump_7
+  - first:
+      213: 21300168
+    second: Personaje_Run_Jump_8
+  - first:
+      213: 21300170
+    second: personaje_85
+  - first:
+      213: 21300172
+    second: Personaje_Kick_1
+  - first:
+      213: 21300174
+    second: Personaje_Kick_2
+  - first:
+      213: 21300176
+    second: Personaje_Kick_3
+  - first:
+      213: 21300178
+    second: Personaje_Kick_4
+  - first:
+      213: 21300180
+    second: Personaje_Kick_5
+  - first:
+      213: 21300182
+    second: Personaje_Kick_6
+  - first:
+      213: 21300184
+    second: personaje_92
+  - first:
+      213: 21300186
+    second: Personaje_Throw_1
+  - first:
+      213: 21300188
+    second: Personaje_Throw_2
+  - first:
+      213: 21300190
+    second: Personaje_Throw_3
+  - first:
+      213: 21300192
+    second: Personaje_Throw_4
+  - first:
+      213: 21300194
+    second: Personaje_Throw_5
+  - first:
+      213: 21300196
+    second: Personaje_Throw_6
+  - first:
+      213: 21300198
+    second: personaje_99
+  - first:
+      213: 21300200
+    second: personaje_100
+  - first:
+      213: 21300202
+    second: personaje_101
+  - first:
+      213: 21300204
+    second: personaje_102
+  - first:
+      213: 21300206
+    second: personaje_103
+  - first:
+      213: 21300208
+    second: personaje_104
+  - first:
+      213: 21300210
+    second: personaje_105
+  - first:
+      213: 21300212
+    second: personaje_106
+  - first:
+      213: 21300214
+    second: personaje_107
+  - first:
+      213: 21300216
+    second: personaje_108
+  - first:
+      213: 21300218
+    second: personaje_109
+  - first:
+      213: 21300220
+    second: personaje_110
+  - first:
+      213: 21300222
+    second: personaje_111
+  - first:
+      213: 21300224
+    second: personaje_112
+  - first:
+      213: 21300226
+    second: personaje_113
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -134,35 +363,56 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -178,7 +428,15 @@ TextureImporter:
       pivot: {x: 0.50256956, y: 0.13301535}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Craw_2
       rect:
@@ -191,7 +449,15 @@ TextureImporter:
       pivot: {x: 0.4915563, y: 0.14708935}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Craw_3
       rect:
@@ -204,7 +470,15 @@ TextureImporter:
       pivot: {x: 0.47358996, y: 0.14708935}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Craw_4
       rect:
@@ -217,7 +491,15 @@ TextureImporter:
       pivot: {x: 0.46402076, y: 0.12275068}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Craw_5
       rect:
@@ -230,7 +512,15 @@ TextureImporter:
       pivot: {x: 0.47359028, y: 0.13492}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Craw_6
       rect:
@@ -243,7 +533,15 @@ TextureImporter:
       pivot: {x: 0.508444, y: 0.13492}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Jump_1
       rect:
@@ -256,7 +554,15 @@ TextureImporter:
       pivot: {x: 0.464441, y: 0.06771073}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Jump_2
       rect:
@@ -269,7 +575,15 @@ TextureImporter:
       pivot: {x: 0.51900524, y: 0.033626616}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Jump_3
       rect:
@@ -282,7 +596,15 @@ TextureImporter:
       pivot: {x: 0.51900536, y: 0.05159126}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Jump_4
       rect:
@@ -295,7 +617,15 @@ TextureImporter:
       pivot: {x: 0.49999976, y: 0.06629319}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Sneak_1
       rect:
@@ -308,7 +638,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Sneak_2
       rect:
@@ -321,7 +659,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Sneak_3
       rect:
@@ -334,7 +680,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Sneak_4
       rect:
@@ -347,7 +701,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Sneak_5
       rect:
@@ -360,7 +722,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Sneak_6
       rect:
@@ -373,7 +743,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Down
       rect:
@@ -386,7 +764,15 @@ TextureImporter:
       pivot: {x: 0.49330595, y: 0.104786515}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Down_Fire
       rect:
@@ -399,7 +785,15 @@ TextureImporter:
       pivot: {x: 0.5000004, y: 0.12860744}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Idle
       rect:
@@ -412,7 +806,15 @@ TextureImporter:
       pivot: {x: 0.51493365, y: 0.10501049}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Fire_1
       rect:
@@ -425,7 +827,15 @@ TextureImporter:
       pivot: {x: 0.47522384, y: 0.09868985}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Fire_2
       rect:
@@ -438,7 +848,15 @@ TextureImporter:
       pivot: {x: 0.3960955, y: 0.09868885}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Fire_3
       rect:
@@ -451,7 +869,15 @@ TextureImporter:
       pivot: {x: 0.3147896, y: 0.08812776}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_1
       rect:
@@ -464,7 +890,15 @@ TextureImporter:
       pivot: {x: 0.48960137, y: 0.07700464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_2
       rect:
@@ -477,7 +911,15 @@ TextureImporter:
       pivot: {x: 0.4584056, y: 0.08692248}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_3
       rect:
@@ -490,7 +932,15 @@ TextureImporter:
       pivot: {x: 0.42321014, y: 0.06572452}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_4
       rect:
@@ -503,7 +953,15 @@ TextureImporter:
       pivot: {x: 0.47853237, y: 0.060084455}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_5
       rect:
@@ -516,7 +974,15 @@ TextureImporter:
       pivot: {x: 0.45966592, y: 0.08118623}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_6
       rect:
@@ -529,7 +995,15 @@ TextureImporter:
       pivot: {x: 0.42013854, y: 0.07700464}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_7
       rect:
@@ -542,7 +1016,15 @@ TextureImporter:
       pivot: {x: 0.49999994, y: 0.09138928}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_8
       rect:
@@ -555,7 +1037,15 @@ TextureImporter:
       pivot: {x: 0.40634015, y: 0.09500227}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_9
       rect:
@@ -568,7 +1058,15 @@ TextureImporter:
       pivot: {x: 0.4116922, y: 0.09138928}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_10
       rect:
@@ -581,7 +1079,15 @@ TextureImporter:
       pivot: {x: 0.43605304, y: 0.112344}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_11
       rect:
@@ -594,7 +1100,15 @@ TextureImporter:
       pivot: {x: 0.4420476, y: 0.105660275}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_12
       rect:
@@ -607,7 +1121,15 @@ TextureImporter:
       pivot: {x: 0.38552687, y: 0.112344}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Fire_1
       rect:
@@ -620,7 +1142,15 @@ TextureImporter:
       pivot: {x: 0.3735591, y: 0.09138928}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Fire_2
       rect:
@@ -633,7 +1163,15 @@ TextureImporter:
       pivot: {x: 0.34186715, y: 0.084344275}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Fire_3
       rect:
@@ -646,7 +1184,15 @@ TextureImporter:
       pivot: {x: 0.30979803, y: 0.08091296}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Fire_4
       rect:
@@ -659,7 +1205,15 @@ TextureImporter:
       pivot: {x: 0.35624304, y: 0.09138928}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Fire_5
       rect:
@@ -672,7 +1226,15 @@ TextureImporter:
       pivot: {x: 0.35951024, y: 0.09500227}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Fire_6
       rect:
@@ -685,7 +1247,15 @@ TextureImporter:
       pivot: {x: 0.25599107, y: 0.112344}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Climb_1
       rect:
@@ -698,7 +1268,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Climb_2
       rect:
@@ -711,7 +1289,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Climb_3
       rect:
@@ -724,7 +1310,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Climb_4
       rect:
@@ -737,7 +1331,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Climb_5
       rect:
@@ -750,7 +1352,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Climb_6
       rect:
@@ -763,7 +1373,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_1
       rect:
@@ -776,7 +1394,15 @@ TextureImporter:
       pivot: {x: 0.5343339, y: 0.079415545}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_2
       rect:
@@ -789,7 +1415,15 @@ TextureImporter:
       pivot: {x: 0.49999985, y: 0.063237704}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_3
       rect:
@@ -802,7 +1436,15 @@ TextureImporter:
       pivot: {x: 0.52273476, y: 0.093916796}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_4
       rect:
@@ -815,7 +1457,15 @@ TextureImporter:
       pivot: {x: 0.42577946, y: 0.0722858}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_5
       rect:
@@ -828,7 +1478,15 @@ TextureImporter:
       pivot: {x: 0.5350488, y: 0.079414956}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_6
       rect:
@@ -841,7 +1499,15 @@ TextureImporter:
       pivot: {x: 0.5168231, y: 0.09559044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_7
       rect:
@@ -854,7 +1520,15 @@ TextureImporter:
       pivot: {x: 0.5000016, y: 0.07941411}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Run_Jump_8
       rect:
@@ -867,7 +1541,15 @@ TextureImporter:
       pivot: {x: 0.47451043, y: 0.08654268}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Kick_1
       rect:
@@ -880,7 +1562,15 @@ TextureImporter:
       pivot: {x: 0.51791275, y: 0.08065946}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Kick_2
       rect:
@@ -893,7 +1583,15 @@ TextureImporter:
       pivot: {x: 0.51617926, y: 0.08065946}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Kick_3
       rect:
@@ -906,7 +1604,15 @@ TextureImporter:
       pivot: {x: 0.5323582, y: 0.08065946}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Kick_4
       rect:
@@ -919,7 +1625,15 @@ TextureImporter:
       pivot: {x: 0.4266, y: 0.083446436}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Kick_5
       rect:
@@ -932,7 +1646,15 @@ TextureImporter:
       pivot: {x: 0.47133833, y: 0.08202972}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Kick_6
       rect:
@@ -945,7 +1667,15 @@ TextureImporter:
       pivot: {x: 0.48328045, y: 0.08202972}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Throw_1
       rect:
@@ -958,7 +1688,15 @@ TextureImporter:
       pivot: {x: 0.5126901, y: 0.06313011}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Throw_2
       rect:
@@ -971,7 +1709,15 @@ TextureImporter:
       pivot: {x: 0.5288096, y: 0.07477982}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Throw_3
       rect:
@@ -984,7 +1730,15 @@ TextureImporter:
       pivot: {x: 0.5161511, y: 0.07477982}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Throw_4
       rect:
@@ -997,7 +1751,15 @@ TextureImporter:
       pivot: {x: 0.47194752, y: 0.07241046}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Throw_5
       rect:
@@ -1010,7 +1772,15 @@ TextureImporter:
       pivot: {x: 0.39735174, y: 0.07116489}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Personaje_Throw_6
       rect:
@@ -1023,9 +1793,28 @@ TextureImporter:
       pivot: {x: 0.499999, y: 0.06769333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

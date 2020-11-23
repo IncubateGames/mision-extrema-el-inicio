@@ -51,9 +51,8 @@ public class PlayerController : MonoBehaviour {
 	
     	
 	void Update ()
-    {
-        Move();
-        SetAnimatorState();
+    {        
+        
     }
 
     void LateUpdate()
@@ -80,6 +79,8 @@ public class PlayerController : MonoBehaviour {
     {
         CheckGround();
         ApplyPhysics();
+        Move();
+        SetAnimatorState();
     }
 
     //Function which draws gizmos, showing the computer's calculations in the form of a sphere.
@@ -122,24 +123,24 @@ public class PlayerController : MonoBehaviour {
         VelX = _body.velocity.x;
         VelY = _body.velocity.y;
 
-        if (isGround)
+        if (isJump)
         {
-            if (isJump)
+            isJump = false;                
+            isGround = false;
+            if (isWalk)
             {
-                isJump = false;                
-                isGround = false;
-                if (isWalk)
-                {
-                    Vector2 vect = new Vector2( Direccion * 0.3f , 1.0f);
-                    _body.AddForce(vect * jumpForce, ForceMode2D.Impulse);
-                }
-                else
-                {
-                    _body.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                }
-                isWalk = false;
+                Vector2 vect = new Vector2( Direccion * 0.3f , 1.0f);
+                _body.AddForce(vect * jumpForce, ForceMode2D.Impulse);
             }
+            else
+            {
+                _body.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            }
+            isWalk = false;
+        }
 
+        if (isGround)
+        { 
             if (isRun)
             {
                 if (isDown)
@@ -185,10 +186,8 @@ public class PlayerController : MonoBehaviour {
         //Assignar variables
         move = h;
         velx = Mathf.Abs(move);
-        isRun = velx > 0.3f;        
-        vely = v;
-
-        
+        isRun = velx > 0.05f;        
+        vely = v;       
 
         if (isGround)
         {
