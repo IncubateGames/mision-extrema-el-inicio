@@ -7,31 +7,31 @@ Extreme Misión es un juego del genero plataformas. El objetivo del mismo es una
 Existen 5 niveles en total denominados Zonas. Los mismos están conectados por medio de portales. El jugador deberá encontrar las conexiones las Zonas y cuál es el camino que permite recolectar todas las llaves y hallar la Bomba. 
 
 La mecánica del juego combina un clásico juego de plataforma con el concepto de evadir y puzle. El concepto de evadir se implementó con las siguientes características:
-•	Tiempo máximo de 10 minutos para completar el nivel
-•	Al ingresar a un nivel o Zona, ya sea por medio de un portal o porque se perdió una vida, el nivel siempre reinicia su estado y muestra todos sus elementos.
+* Tiempo máximo de 10 minutos para completar el nivel
+* Al ingresar a un nivel o Zona, ya sea por medio de un portal o porque se perdió una vida, el nivel siempre reinicia su estado y muestra todos sus elementos.
 
 El Concepto de Puzle se implementó utilizando conexiones entre los niveles o Zonas denominadas Portales. Cada Zona posee de 2 a 3 portales. Esto hace que exista un camino el cual debe descubrirse para poder cumplir el objetivo.
 
 Algunas características interesantes de la mecánica aplicadas al personaje principal son:
-•	El jugador puede saltar y trepar
-•	El jugador se puede agachar y caminar a gatas
-•	Activar la cámara lenta. Esto hace que el juego valla muy lento permitiendo así que el jugador pueda sortear algunas partes difíciles. 
+*	El jugador puede saltar y trepar
+*	El jugador se puede agachar y caminar a gatas
+*	Activar la cámara lenta. Esto hace que el juego valla muy lento permitiendo así que el jugador pueda sortear algunas partes difíciles. 
 
 ## Controles:
-•	A: Disparar. Se puede disparar en las siguientes situaciones
-o	Parado
-o	Corriendo
-o	Agachado
-•	S: Agarrarse. Si el jugador está saltando se queda agarrado a la pared.
-o	Solo tiene efecto si el jugador está descendiendo luego de dar un salto
-•	Q: Cámara lenta. Reduce la velocidad del juego
-•	Flechas: 
-o	Arriba: Salta
-o	Izquierda / Derecha: Corre en esa dirección
-	Si se presiona la techa Arriba, Salta.
-o	Abajo: se agacha.
-	Si se presiona juntamente con
-•	Derecha / Izquierda: gatea en la dirección	
+*	A: Disparar. Se puede disparar en las siguientes situaciones
+    *	Parado
+    *	Corriendo
+    *	Agachado
+*	S: Agarrarse. Si el jugador está saltando se queda agarrado a la pared.
+    *	Solo tiene efecto si el jugador está descendiendo luego de dar un salto
+*	Q: Cámara lenta. Reduce la velocidad del juego
+*	Flechas: 
+    *	Arriba: Salta
+    *	Izquierda / Derecha: Corre en esa dirección
+        *	Si se presiona la techa Arriba, Salta.
+    *	Abajo: se agacha.
+        *	Si se presiona juntamente con
+*	Derecha / Izquierda: gatea en la dirección	
 
 ## Elementos del Juego
 Dentro de los elementos del juego tenemos los enemigos. 
@@ -43,8 +43,8 @@ Dentro de los elementos del juego tenemos los enemigos.
 
 ## Mecanicas
 La idea del juego surge en parte por la propuesta de la cursada. Esto influyo respecto al tipo de género. Se podría decir que los conceptos utilizados en conjunto con el género fueron:
-•	Evadir
-•	Puzle
+*	Evadir
+*	Puzle
 
 ## Referencias
 Hay también algunas influencias del juego Preshistorik 2 en lo que respecta a gráficos y dinamismo del gameplay.
