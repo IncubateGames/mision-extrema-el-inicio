@@ -1,6 +1,9 @@
 # Mision Extrema - El inicio
 GAME DESIGN DOCUMENT
 
+## NOTA
+La version original del juego fue realizada en c++ con un motor propio. El mismo juego se esta migrando a Unity 3D para dar mas compatiblidad de plataformas
+
 ## INTRODUCCION
 Extreme Misión es un juego del genero plataformas. El objetivo del mismo es una poderosa bomba. Pare ello el jugador deberá encontrar 5 llaves que se encuentran diseminadas por los niveles. Se tiene 10 minutos de tiempo para lograrlo.
 
