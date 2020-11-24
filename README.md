@@ -4,6 +4,16 @@ GAME DESIGN DOCUMENT
 ## Pagina del juegos
 https://oskit-producciones.github.io/mision-extrema-el-inicio/
 
+
+## Motor de juego
+Unity 3D
+
+## Genero
+Shoot 2D scroll Horizontal 
+
+## Plataforma
+PC
+
 ## NOTA
 La version original del juego fue realizada en c++ con un motor propio. El mismo juego se esta migrando a Unity 3D para dar mas compatiblidad de plataformas
 
