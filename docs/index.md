@@ -1,6 +1,6 @@
 # Descargas
 Version original del juego
- Link --> [Mision extrema - Game.zip](https://github.com/Oskit-Producciones/mision-extrema-el-inicio/blob/master/docs/Mision%20extrema%20-%20Game.zip)
+ Link --> [Mision extrema - Game.zip](https://github.com/Oskit-Producciones/mision-extrema-el-inicio/raw/master/docs/Mision%20extrema%20-%20Game.zip)
 ### Instrucciones
 * Descargar el zip
 * descomprimir en cualquier carpeta
